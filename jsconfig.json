@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "page/*": ["./page/*"]
+    },
+    "allowSyntheticDefaultImports": false,
+    "checkJs": false,
+    "moduleResolution": "node",
+    "module": "ES6",
+    "target": "ES6",
+    "noLib": false
+  },
+  "exclude": ["node_modules", "dist", ".vscode"]
+}
